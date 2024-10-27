@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(0, 0, 0, 0.973);
+  color: white;
+}
+i {
+  cursor: grab;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.side-nav-outer {
+  background-color: #63e6be;
+}
+.logo-img {
+  width: 40px;
+}
+.side-nav-outer i {
+  display: block;
+}
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(248, 248, 255, 0.792);
+  top: 100%;
+  transition: 0.7s;
+}
+.meal:hover .meal-layer {
+  top: 0;
+}
+.side-nav {
+  z-index: 9999;
+}
